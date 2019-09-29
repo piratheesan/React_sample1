@@ -9,8 +9,7 @@ export default class index extends Component {
             <div>               
                 <div className="head">
                 
-                    <label className="lbl">View Defects</label>
-                  
+                    <label className="lbl">View Defects</label>                  
                 
                 </div>
                             
@@ -38,7 +37,7 @@ export default class index extends Component {
                         <label>Status</label> <br></br>                       
                         <textarea type="text" name="status" className="id"></textarea><br></br> <br></br>
                         <button className="save_but">Save</button>
-                        &emsp;<button className="can_but">Canel</button>
+                        &emsp;<button className="can_but">Cancel</button>
                     </form>
                                                            
                 </div>
@@ -65,8 +64,9 @@ export default class index extends Component {
                         <td>Delete</td>
                     </tr>
                 </table> */}              
-                <div className="foot">                
-                {/* <label className="lbl">View Defects</label>               */}
+                <div className="foot">     
+                <br></br>
+                <label className="lb2">© Copyright 2019 Project</label>              
                 </div>
             </div>
         )

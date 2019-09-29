@@ -57,6 +57,14 @@ label
     color: white;
     font-weight: bold;
 }
+.lb2
+{
+    color: white;
+    font: 200;
+    padding-left: 560px;
+    /* //padding-top: 10px; */
+    padding-bottom: 10px;
+}
 .tbl1
 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -90,6 +98,7 @@ label
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 12px 10px;
 }
 .can_but
 {
@@ -101,4 +110,5 @@ label
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 10px 12px;
 }
